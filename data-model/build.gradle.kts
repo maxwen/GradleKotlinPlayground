@@ -2,5 +2,7 @@ plugins {
     id("my-java-library")
 }
 dependencies {
-    implementation("org.apache.commons:commons-lang3:3.12.0")
+    implementation(platform("com.example:platform"))
+
+    implementation("org.apache.commons:commons-lang3")
 }
