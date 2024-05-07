@@ -15,7 +15,7 @@ dependencyResolutionManagement {
 //        credentials.username="xxx"
 //        credentials.password="yyy"
 //    }
-//    includeBuild("gradle/platform")
+    includeBuild("gradle/platform")
 }
 
 rootProject.name="GradleKotlinPlayground"

@@ -1,3 +1,4 @@
+import com.example.gradle.Slf4JSimpleRule
 import gradle.kotlin.dsl.accessors._a36adeff7943c18d5e9e07d718caef3f.compileJava
 import gradle.kotlin.dsl.accessors._a36adeff7943c18d5e9e07d718caef3f.compileTestJava
 import gradle.kotlin.dsl.accessors._a36adeff7943c18d5e9e07d718caef3f.javadoc
@@ -28,3 +29,6 @@ tasks.javadoc {
 
 }
 
+//dependencies.components {
+//    withModule<Slf4JSimpleRule>("org.slf4j:slf4j-simple")
+//}
