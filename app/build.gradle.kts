@@ -11,5 +11,6 @@ dependencies {
 
     implementation(project(":data-model"))
     implementation(project(":business-logic"))
-    runtimeOnly("org.slf4j:slf4j-simple")
+//    runtimeOnly("org.slf4j:slf4j-simple")
+    implementation(libs.slf4j.simple)
 }
